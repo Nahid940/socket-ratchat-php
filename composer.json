@@ -1,0 +1,15 @@
+{
+    "autoload":{
+      "psr-4":{
+          "App\\":"src"
+      },
+      "files": [
+        "src/eloquent/eloquent-setup.php"
+      ]
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.2",
+        "illuminate/database": "^7.13",
+        "illuminate/events": "^7.13"
+    }
+}
